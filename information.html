@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        #container{
+            margin: 0px auto;
+            width:450px;
+            height: 800px;
+            position:relative;
+            border: black 2px solid;
+        }
+        #header{
+            background-image:url("images/meitu_1.jpg");
+            heigth:10px;
+            color:white;
+
+        }
+        #b1{
+            width:70px;
+            position:absolute;
+            top:80px;
+            left: 170px;
+        }
+        #b2{
+            position:absolute;
+            top:10px;
+            left:400px;
+        }
+        #a1{
+             background-image:url("images/meitu_1.jpg");
+             height:160px;
+         }
+        form {
+            position: absolute;
+            top: 200px;
+            left: 100px;
+        }
+        p1{
+            position:absolute;
+            top:10px;
+            left:5px;
+        }
+        p2{
+            position:absolute;
+            top:350px;
+            left:30px;
+
+        }
+        p3{
+            position:absolute;
+            top:600px;
+            left:30px;
+        }
+        #c1{
+            color:white;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="top"></div><!--end top-->
+    <div id="header">
+        <p1><a id="c1" href="index.html">返回</a></p1>
+        <a  href="二维码.html"><img id=b2 src="images/code.png" ></a>
+    </div><!--end header-->
+    <div id="me">
+        <div id="a1">
+            <a href="#">
+                <img id=b1 src="images/picture.jpg" > </a>
+        </div>
+        <form>
+            <br>
+            昵称：<input type="text"><br>
+            学院：<input type="text"><br>
+            专业：<input type="text"><br>
+            家乡：<input type="text"><br>
+        </form>
+        <p2>
+            个人陈述：<textarea name="" id="" cols="50" rows="5"></textarea><br>
+            竞赛经历：<textarea name="" id="" cols="50" rows="5"></textarea>
+
+        </p2>
+        <p3>
+            个人喜好：<textarea name="" id="" cols="50" rows="2"></textarea><br>
+            社团活动：<textarea name="" id="" cols="50" rows="2"></textarea>
+            <input type="submit"name="subit" value="提交">
+            <input type="reset"name="reset"value="清除"></p3>
+         </div>
+</body>
+</html>
